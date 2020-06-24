@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Nave Espacial Landing</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/css/jquery.countdown.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Nave Espacial</title>
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+    <div class="container-fluid">
+      <nav class="navbar navbar-default sticky-top navbar-expand-lg bg-secondary navbar-dark bg-dark">
+  
+        <a class="navbar-brand text-light" href="#"><img src="https://nave-espacial.s3-eu-west-1.amazonaws.com/assets/imgs/logo-nave-espacial-small.png" width="35"></a>
+        <button class="navbar-toggler btn btn-secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav navbar-right mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
+            <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+            <li class="nav-item"><a class="nav-link" href="#directions">Directions</a></li>
+            <li class="nav-item"><a class="nav-link" href="#subscribe">Subscribe</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+      <header class="primary-overlay py-5" style="background-image: url('https://nave-espacial.s3-eu-west-1.amazonaws.com/assets/imgs/hero-background-blurred.jpg');
+                                                    background-repeat: no-repeat;
+  background-size: 100%; background-attachment: fixed;">
+        <div class="bg-image"></div>
+        <div class="row justify-content-center">
+          <img src="https://nave-espacial.s3-eu-west-1.amazonaws.com/assets/imgs/8978c2af-8a1e-4c49-8954-d188d9441b42_200x200.png" >
+        </div>
+        <div class="row justify-content-center">
+          <span class="uppercase text-white">December 7th - Barcelona, Spain</span>
+        </div>
+        <div class="row justify-content-center p-4">
+          <h5 class="text-white">An evening with the web's most forward thinking innovators.</h5>
+        </div>
+        <div class="row  justify-content-center">
+								<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+									<div id="defaultCountdown"></div>
+								</div>
+        </div>
+  
+      </header>
+      <section class="bg-color" id="about">
+              <div class="row justify-content-center">
+                  <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                      <h3>About</h3>
+                      <p>Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.</p>
+                      <p>Bootstrap is completely free to download and use!</p> <a href="#" class="btn btn-default-new">Start learning Bootstrap</a> </div>
+          </div>
+      </section>
+
+      <section class="service-section" id="organizers">
+          <div class="container">
+               <h3>Organizers</h3>
+
+              <div class="row">
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                      <div class="service-items">
+                          <div class="icon">
+                              <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                          </div>
+                          <h4><a href="#">Adolfo</a></h4>
+                          <p>Rather than coding from scratch, Bootstrap enables you to utilize ready made blocks of code to help you get started.</p>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                      <div class="service-items">
+                          <div class="icon">
+                              <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                          </div>
+                          <h4><a href="#">Miguel</a></h4>
+                          <p>Creating mobile ready websites is a breeze with Bootstrap thanks to the fluid grid layout that dynamically adjusts to the proper screen resolution.</p>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                      <div class="service-items">
+                          <div class="icon">
+                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                          </div>
+                          <h4><a href="#">Cristian</a></h4>
+                          <p>Bootstrap ensures consistency regardless of who’s working on the project. </p>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                      <div class="service-items">
+                          <div class="icon">
+                              <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+                          </div>
+                          <h4><a href="#">Ketza</a></h4>
+                          <p>Bootstrap can be tailor made according to the specifications of your project.</p>
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
+      </section>
+
+       <section class="portfolio-section" id="schedule">
+           <div class="portfolio-section-inner">
+              <div class="portfolio-section-row">
+                  <div class="portfolio-section-data" style="background-image:url('http://www.pd4pic.com/images/snail-branch.jpg')">
+                      <div class="portfolio-section-text">
+                         <div class="portfolio-section-text-inner">
+                          <p>Portfolio</p>
+                          <a href="#">read more</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="portfolio-section-data" style="background-image:url('https://media.licdn.com/mpr/mpr/p/4/005/08a/10f/1e03070.jpg')">
+                      <div class="portfolio-section-text">
+                         <div class="portfolio-section-text-inner">
+                          <p>Portfolio</p>
+                          <a href="#">read more</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="portfolio-section-data" style="background-image:url('http://freestockphotosindia.com/oc-content/uploads/1/160Zhl4HJOU_small.jpg')">
+                      <div class="portfolio-section-text">
+                         <div class="portfolio-section-text-inner">
+                          <p>Portfolio</p>
+                          <a href="#">read more</a>
+                          </div>
+                      </div>
+                  </div>
+               </div>
+
+                <div class="portfolio-section-row">
+
+                  <div class="portfolio-section-data" style="background-image:url('https://1.bp.blogspot.com/-Og33a_xvK7s/UN3l0q2hpTI/AAAAAAAAJRs/ejFbNQxNeeA/s640/facebook-girls-to-labels-beautiful-birds-130979.jpg')">
+                      <div class="portfolio-section-text">
+                         <div class="portfolio-section-text-inner">
+                          <p>Portfolio</p>
+                          <a href="#">read more</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="portfolio-section-data" style="background-image:url('http://www.photos-public-domain.com/wp-content/uploads/2010/08/acoustic_guitar_bridge.jpg')">
+                      <div class="portfolio-section-text">
+                          <div class="portfolio-section-text-inner">
+                          <p>Portfolio</p>
+                          <a href="#">read more</a>
+                          </div>
+                      </div>
+                  </div>
+
+                    <div class="portfolio-section-data" style="background-image:url('https://2.bp.blogspot.com/-g3cj06XIHa4/UN3lol_VG3I/AAAAAAAAJQs/6qRI_L0MWqE/s640/59.jpg')">
+                      <div class="portfolio-section-text">
+                          <div class="portfolio-section-text-inner">
+                          <p>Portfolio</p>
+                          <a href="#">read more</a>
+                          </div>
+                      </div>
+                  </div>
+               </div>
+
+           </div>
+
+
+      </section>
+
+      <footer id="subscribe">
+              <div class="row justify-content-center">
+                  <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                      <h3>Let's Get In Touch!</h3>
+                      <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                      <div class="gap">
+                      <div class="col-sm-12 col-xs-12">
+                          <span class="glyphicon glyphicon-earphone"></span>
+                          <a href="tel:123456789">123-456-789</a>
+                      </div>
+                       <div class="col-sm-12 col-xs-12">
+                          <span class="glyphicon glyphicon-envelope"></span>
+                          <a href="mailto:get@bootstrap.com">get@bootstrap.com</a>
+                      </div>
+                      </div>
+
+              </div>
+          </div>
+
+      </footer>
+    
+    </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/js/jquery.plugin.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/js/jquery.countdown.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
