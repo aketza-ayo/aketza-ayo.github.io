@@ -1,30 +1,33 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Nave Espacial Landing</title>
-  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/css/jquery.countdown.min.css'><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
 <!doctype html>
 <html lang="en">
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/js/jquery.plugin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/js/jquery.countdown.min.js"></script>
+    <script async src="js/script.js" ></script>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/css/jquery.countdown.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" href="assets/favicon.ico">
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Nave Espacial</title>
+    <title>Nave Espacial Landing</title>
+
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy">
     <div class="container-fluid">
       <nav class="navbar navbar-default sticky-top navbar-expand-lg bg-secondary navbar-dark bg-dark">
   
-        <a class="navbar-brand text-light" href="#"><img src="https://nave-espacial.s3-eu-west-1.amazonaws.com/assets/imgs/logo-nave-espacial-small.png" width="35"></a>
+        <a class="navbar-brand text-light" href="#"><img src="assets/rocket.png" width="30"></a>
         <button class="navbar-toggler btn btn-secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,10 +47,10 @@
   background-size: 100%; background-attachment: fixed;">
         <div class="bg-image"></div>
         <div class="row justify-content-center">
-          <img src="https://nave-espacial.s3-eu-west-1.amazonaws.com/assets/imgs/8978c2af-8a1e-4c49-8954-d188d9441b42_200x200.png" >
+          <img src="assets/rocket.png"  width="100">
         </div>
         <div class="row justify-content-center">
-          <span class="uppercase text-white">December 7th - Barcelona, Spain</span>
+          <span class="uppercase text-white">October 31st - Barcelona, Spain</span>
         </div>
         <div class="row justify-content-center p-4">
           <h5 class="text-white">An evening with the web's most forward thinking innovators.</h5>
@@ -63,8 +66,9 @@
               <div class="row justify-content-center">
                   <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
                       <h3>About</h3>
-                      <p>Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.</p>
-                      <p>Bootstrap is completely free to download and use!</p> <a href="#" class="btn btn-default-new">Start learning Bootstrap</a> </div>
+                      <p>Workshops, Hackathons, Collab Software Projects, Tech Days, Machine Learning, AI, Mobile Web App Development.</p>
+                      <p>Remote and presential knowledge hub with a collab-working space.</p>
+                      <p>All the events are held in the co-working space and possible to follow it remotely on <a href="https://www.youtube.com/channel/UCVW_YGOo2-XObTqRDDKb2cA">Youtube</a></p> <a href="#" class="btn btn-default-new">Join event</a> </div>
           </div>
       </section>
 
@@ -75,41 +79,42 @@
               <div class="row">
                   <div class="col-md-3 col-sm-6 col-xs-12">
                       <div class="service-items">
-                          <div class="icon">
-                              <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                          <div class="avatar">
+                            <img class="avatarpic" style="border-radius: 50%;  margin-bottom: 30px; border: solid 2px #F05F40" src="https://avatars1.githubusercontent.com/u/18516802?s=400&v=4" width="100"/>
                           </div>
-                          <h4><a href="#">Adolfo</a></h4>
-                          <p>Rather than coding from scratch, Bootstrap enables you to utilize ready made blocks of code to help you get started.</p>
+                          <h4><a href="https://github.com/AdolfoGT" target="_blank">Adolfo</a></h4>
+                          <p>Main orginizer and driver of most of the things happening in the co-working space</p>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                      <div class="service-items">
+                        <div class="avatar"> 
+                            <img class="avatarpic" src="https://avatars2.githubusercontent.com/u/1163236?s=400&u=7b6043f7e4fdea7953d2e1cd98ecea2fdc98583e&v=4" width="100"/>  
+                        </div>
+                          <h4><a href="https://github.com/MiguelPF/" target="_blank">Miguel</a></h4>
+                          <p>A highly talented developer with significan success in the area of machine learning applications</p>
                       </div>
                   </div>
 
                   <div class="col-md-3 col-sm-6 col-xs-12">
                       <div class="service-items">
                           <div class="icon">
-                              <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                            <img src="assets/rocket.png" width="90">
+                              <!-- <span class="glyphicon glyphicon-star" aria-hidden="true"></span> -->
                           </div>
-                          <h4><a href="#">Miguel</a></h4>
-                          <p>Creating mobile ready websites is a breeze with Bootstrap thanks to the fluid grid layout that dynamically adjusts to the proper screen resolution.</p>
+                          <h4><a href="#">Christian</a></h4>
+                          <p>Scrum master / web developer with professional skills in managing challenging projects</p>
                       </div>
                   </div>
 
                   <div class="col-md-3 col-sm-6 col-xs-12">
                       <div class="service-items">
-                          <div class="icon">
-                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                          <div class="avatar"> 
+                                <img class="avatarpic" src="https://avatars3.githubusercontent.com/u/7622054?s=400&u=eea73a544de29087ccc2b40c9d0eb9a632d3c8f0&v=4" width="100">
                           </div>
-                          <h4><a href="#">Cristian</a></h4>
-                          <p>Bootstrap ensures consistency regardless of who’s working on the project. </p>
-                      </div>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 col-xs-12">
-                      <div class="service-items">
-                          <div class="icon">
-                              <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
-                          </div>
-                          <h4><a href="#">Ketza</a></h4>
-                          <p>Bootstrap can be tailor made according to the specifications of your project.</p>
+                          <h4><a href="https://github.com/aketza-ayo" target="_blank">Aketza</a></h4>
+                          <p>A passionate software engineer in Java and Kotlin with relevant experience in back end projects</p>
                       </div>
                   </div>
 
@@ -121,7 +126,7 @@
        <section class="portfolio-section" id="schedule">
            <div class="portfolio-section-inner">
               <div class="portfolio-section-row">
-                  <div class="portfolio-section-data" style="background-image:url('http://www.pd4pic.com/images/snail-branch.jpg')">
+                  <div class="portfolio-section-data" style="background-image:url('assets/promo_app.jpg')">
                       <div class="portfolio-section-text">
                          <div class="portfolio-section-text-inner">
                           <p>Portfolio</p>
@@ -130,7 +135,7 @@
                       </div>
                   </div>
 
-                  <div class="portfolio-section-data" style="background-image:url('https://media.licdn.com/mpr/mpr/p/4/005/08a/10f/1e03070.jpg')">
+                  <div class="portfolio-section-data" style="background-image:url('assets/promo_game.jpg')">
                       <div class="portfolio-section-text">
                          <div class="portfolio-section-text-inner">
                           <p>Portfolio</p>
@@ -139,7 +144,7 @@
                       </div>
                   </div>
 
-                  <div class="portfolio-section-data" style="background-image:url('http://freestockphotosindia.com/oc-content/uploads/1/160Zhl4HJOU_small.jpg')">
+                  <div class="portfolio-section-data" style="background-image:url('assets/promo_ai.jpg')">
                       <div class="portfolio-section-text">
                          <div class="portfolio-section-text-inner">
                           <p>Portfolio</p>
@@ -151,7 +156,7 @@
 
                 <div class="portfolio-section-row">
 
-                  <div class="portfolio-section-data" style="background-image:url('https://1.bp.blogspot.com/-Og33a_xvK7s/UN3l0q2hpTI/AAAAAAAAJRs/ejFbNQxNeeA/s640/facebook-girls-to-labels-beautiful-birds-130979.jpg')">
+                  <div class="portfolio-section-data" style="background-image:url('assets/promo_mirror.jpg')">
                       <div class="portfolio-section-text">
                          <div class="portfolio-section-text-inner">
                           <p>Portfolio</p>
@@ -160,7 +165,7 @@
                       </div>
                   </div>
 
-                  <div class="portfolio-section-data" style="background-image:url('http://www.photos-public-domain.com/wp-content/uploads/2010/08/acoustic_guitar_bridge.jpg')">
+                  <div class="portfolio-section-data" style="background-image:url('assets/promo_machine.jpg')">
                       <div class="portfolio-section-text">
                           <div class="portfolio-section-text-inner">
                           <p>Portfolio</p>
@@ -169,7 +174,7 @@
                       </div>
                   </div>
 
-                    <div class="portfolio-section-data" style="background-image:url('https://2.bp.blogspot.com/-g3cj06XIHa4/UN3lol_VG3I/AAAAAAAAJQs/6qRI_L0MWqE/s640/59.jpg')">
+                    <div class="portfolio-section-data" style="background-image:url('assets/promo_raspberry.jpg')">
                       <div class="portfolio-section-text">
                           <div class="portfolio-section-text-inner">
                           <p>Portfolio</p>
@@ -190,13 +195,12 @@
                       <h3>Let's Get In Touch!</h3>
                       <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
                       <div class="gap">
-                      <div class="col-sm-12 col-xs-12">
-                          <span class="glyphicon glyphicon-earphone"></span>
-                          <a href="tel:123456789">123-456-789</a>
+                      <div class="col-sm-12 col-xs-12" id="directions">
+                          <span class="glyphicon glyphicon-earphone">Poligono Industral - Carrer de la Costa Brava 22 - Barcelona</span>
                       </div>
                        <div class="col-sm-12 col-xs-12">
                           <span class="glyphicon glyphicon-envelope"></span>
-                          <a href="mailto:get@bootstrap.com">get@bootstrap.com</a>
+                          <a href="mailto:1timetoaction@gmail.com">1timetoaction@gmail.com</a>
                       </div>
                       </div>
 
@@ -208,13 +212,4 @@
     </div>
 </body>
 
-</html>
-<!-- partial -->
-  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
-<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/js/jquery.plugin.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.1.0/js/jquery.countdown.min.js'></script><script  src="./script.js"></script>
-
-</body>
 </html>

@@ -132,6 +132,7 @@ h1, h2, h3, h4 {
 /**** HEADER END ****/
 /**** ABOUT ****/
 .bg-color{
+    /* background:#F05F40; */
     background:#F05F40;
 }
 
@@ -218,6 +219,13 @@ section{
     border: solid 2px #F05F40;
     margin: 0 auto 30px;
     line-height: 98px;
+}
+
+
+.service-items .avatar .avatarpic{
+    border-radius: 50%;  
+    margin-bottom: 30px; 
+    border: solid 2px #F05F40
 }
 
 .service-items h4{
